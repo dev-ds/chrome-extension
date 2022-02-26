@@ -1,0 +1,13 @@
+{
+    "manifest_version" : 3,
+    "name" : "URL to QR",
+    "description" : "Create a QR in browser which when scanned in mobile devices, open the URL you are viewing.",
+    "version": "1.0.0",
+    "icons" : {"128": "QR_128.png"},
+    "browser_action" : {
+        "default_icon" : "QR_24.png",
+        "default_popup" : "popup.html"
+    },
+    "permissions": ["activeTab"]
+
+}
